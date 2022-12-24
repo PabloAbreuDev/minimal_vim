@@ -10,6 +10,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.x' }
+Plug 'folke/tokyonight.nvim'
 call plug#end()
 
 
@@ -18,7 +19,7 @@ call plug#end()
 "----------------"
 set number
 set relativenumber
-colorscheme gruvbox
+colorscheme tokyonight-storm
 let mapleader = ","
 set ignorecase
 
@@ -46,6 +47,9 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+
+" Lightline
+let g:lightline = {'colorscheme': 'tokyonight'}
 
 " Coc
 
