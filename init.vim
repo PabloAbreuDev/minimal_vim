@@ -13,6 +13,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.x' }
 Plug 'folke/tokyonight.nvim'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 
