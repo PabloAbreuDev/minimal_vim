@@ -12,7 +12,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.x' }
 Plug 'folke/tokyonight.nvim'
 Plug 'patstockwell/vim-monokai-tasty'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'tpope/vim-commentary'
 call plug#end()
 
@@ -37,7 +36,7 @@ colorscheme vim-monokai-tasty
 "  Keybindings  "
 "---------------"
 nnoremap q :q <CR>
-nnoremap <C-s> :Prettier <CR> :w <CR>
+nnoremap <C-s> :w <CR>
 nnoremap <C-n> :NERDTreeToggle <CR>
 nnoremap <C-a> :NERDTreeFind <CR>
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
